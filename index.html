@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Chatroom</title>
+    <link rel="stylesheet" href="style.css">
+    <script type='text/javascript' src='https://api2.scaledrone.com/assets/scaledrone.min.js'></script>
+    <script type='text/javascript' src="script.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="chat-content" id="content"></div>
+      <form class="input-area" onsubmit="onSubmitForm(); return false;">
+        <input type="text" class="input content" placeholder="Message.." required>
+        <input type="submit" class="input button" value="Send">
+      </form>
+    </div>
+  </body>
+</html>
